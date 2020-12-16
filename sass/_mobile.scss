@@ -1,0 +1,62 @@
+@media(max-width:700px){
+nav{
+    .logo{
+        left: 2%;
+        margin-top: 5px;
+        // top: 2%;
+    }
+    .nav{
+        font-size: 14px;
+        right: 2%;
+    }
+}
+
+.links{
+    display: none;
+}
+
+  .products{
+    //   flex-direction: column;
+    .prolist{
+        flex-direction: column;
+        // display: none;
+    }
+    .pro-img{
+        width: 90px;
+        height: 90px;
+
+        img{
+            width: 100px;
+        }
+    }
+
+    .head{
+        font-size: 14px;
+    }
+
+    a{
+        font-size: 13px;
+        padding: 4px ;
+    }
+
+  }
+
+
+  .types{
+    //   margin : 0 auto;
+      flex-direction: column;
+
+      .candy-types{
+          margin: 1px auto;
+          width: 70vw;
+          height: 23vh;
+      }
+  }
+
+  footer{
+      flex-direction: column;
+      padding-left: 5px;
+      padding-left: 10px;
+  }
+
+}
